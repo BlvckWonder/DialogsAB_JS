@@ -136,8 +136,48 @@
 </datalist><br><br>
 <input type="submit">
 </form><br><br>
+<h1>File upload</h1>
 
-	
+<p>Show a file-select field which allows a file to be chosen for upload:</p>
+<form action="/action_page.php">
+  <label for="myfile">Select a file:</label>
+  <input type="file" id="myfile" name="myfile"><br><br>
+  <input type="submit" value="Submit">
+</form><br><br><br><br>
+<h2>The button Element</h2>
+
+<button type="button" onclick="alert('Hello World!')">Click Me!</button><br><br><br><br>
+<h2>Grouping Form Data with Fieldset</h2>
+
+<p>The fieldset element is used to group related data in a form, and the legend element defines a caption for the fieldset element.</p>
+
+<form action="/action_page.php">
+  <fieldset>
+    <legend>Personalia:</legend>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="John"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+    <input type="submit" value="Submit">
+  </fieldset>
+</form>	<br><br><br><br>
+<h2>The output Element</h2>
+<p>The output element represents the result of a calculation.</p>
+
+<form action="/action_page.php"
+oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  0
+  <input type="range" id="a" name="a" value="50">
+  100 +
+  <input type="number" id="b" name="b" value="50">
+  =
+  <output name="x" for="a b"></output>
+  <br><br>
+  <input type="submit">
+</form>
+
+<p><strong>Note:</strong> The output element is not supported in Edge prior version 13.</p>
+<br><br><br><br>
 
 </body>
 </html>
