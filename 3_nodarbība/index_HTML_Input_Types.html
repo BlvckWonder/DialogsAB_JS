@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<body>
+<form action="/action_page.php">
+  <label for="fname">VĀRDS:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">UZVĀRDS:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br><br>
+  <input type="submit" value="Submit"> 
+  <input type="reset">
+
+</form> 
+<form>
+  <br>
+  <br>
+  <br>
+  <br>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+</form>
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+<br>
+<br>
+<br>
+<form>
+  <label for="username">Lietotājvārds:</label><br>
+  <input type="text" id="username" name="username"><br>
+  <label for="pwd">parole
+  :</label><br>
+  <input type="password" id="pwd" name="pwd"><br><br>
+  <input type="submit" value="Submit">
+  <br>
+
+  <br><br><br><h2>Radio Buttons</h2>
+
+<p>The <strong>input type="radio"</strong> defines a radio button:</p>
+
+<p>Choose your favorite Web language:</p>
+<form action="/action_page.php">
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">HTML</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">CSS</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">JavaScript</label><br><br>
+  <input type="submit" value="Submit"> <br> <br> <br> <br> <br> <br>
+  <form>
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <label for="vehicle1"> Man ir velosipēds</label><br>
+    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+    <label for="vehicle2"> Man ir mašīna</label><br>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+    <label for="vehicle3"> Man ir laiva</label>
+  </form><br><br><br><br><br>
+  <h2>IZVĒLIES KRĀSU</h2>
+
+<p>The <strong>input type="color"</strong> is used for input fields that should contain a color.</p>
+
+<form action="/action_page.php">
+  <label for="favcolor">IZVĒLIES SAVU MĪĻĀKO KRĀSU:</label>
+  <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+  <input type="submit" value="Submit">
+</form>
+
+<p><b>Note:</b> type="color" is not supported in Internet Explorer 11 or Safari 9.1 (or earlier).</p>
+</form><br><br><br>
+<h2>Email Field</h2>
+
+<p>The <strong>input type="email"</strong> is used for input fields that should contain an e-mail address:</p>
+
+<form action="/action_page.php">
+  <label for="email">Enter your email:</label>
+  <input type="email" id="email" name="email">
+  <input type="submit" value="Submit"><br><br><br>
+  <h2>Display an Image as the Submit button</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First name: </label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name: </label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="image" src="img_
+  submit.gif" alt="Submit" width="48" height="48">
+</form>
+<p><b>Note:</b> The input type="image" sends the X and Y coordinates of the click that activated the image button.</p>
+</form>
+
+<h2>Example to give textarea in HTML</h2>
+<form>
+<textarea maxlength="100" rows="7" cols="50">Text here...</textarea>
+</form><br><br><br><br>
+
+<h1>List of options is visible.</h1>
+<p>ctrl+left click to select all</p>
+<form action='Form.php'>
+<select name='Mobiles' size='6' multiple>
+<option value='SONY'>SONY</option>
+<option value='APPLE'>APPLE</option>
+<option value='HTC'>HTC</option>
+<option value='NOKIA'>NOKIA</option>
+<option value='SAMSUNG'>SAMSUNG</option>
+<option value='MOTOROLA'>MOTOROLA</option>
+</select>
+<br><br>
+<input type='submit'>
+</form>
+
+<h2>List of options is visible.</h2>
+
+<form action='Form.php'>
+<select name='Mobiles' size='6'>
+<option value='SONY'>SONY</option>
+<option value='APPLE'>APPLE</option>
+<option value='HTC'>HTC</option>
+<option value='NOKIA'>NOKIA</option>
+<option value='SAMSUNG'>SAMSUNG</option>
+<option value='MOTOROLA'>MOTOROLA</option>
+</select>
+<br><br>
+<input type='submit'>
+</form><br><br>
+<h2>Example for datalist Element</h2>
+<p>The pre-defined option is specified in drop down list using datalist element</p>
+
+<form>
+<input list="Footwear" name="Footwears">
+<datalist id="Footwear">
+<option value="Casual Shoes">
+<option value="Sports Shoes">
+<option value="Formal Shoes">
+<option value="Flip Flops">
+<option value="Sandals">
+</datalist><br><br>
+<input type="submit">
+</form><br><br>
+
+	
+
+</body>
+</html>
