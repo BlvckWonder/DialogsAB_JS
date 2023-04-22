@@ -1,4 +1,5 @@
 **KO APGUVU 3 NODARBĪBĀ**
+
 Formas ir instruments, ar kura palīdzību HTML dokumentā var organizēt informācijas nosūtīšanu uz noteiktu vietu. Formas tiek plaši pielietotas dažādās aptaujās, internetā veikalos, elektronisko vēstuļu nosūtīšanā un citās sfērās.
 Formas darbības princips ir šāds: lapas apmeklētājs uz sava datora aizpilda pārlūkprogrammas parādīto formu. Nospiežot atbilstošu pogu, kas ir atrodama formā, pārlūkprogramma saņem vajadzīgos datus un aizsūta adresātam. Forma var darboties pilnvērtīgi, ja datorā ir speciālas programmas (script) un pieeja reālam serverim.
 Formas apraksts tiek ievietots starp tagiem /form/ un //form/
